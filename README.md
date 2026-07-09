@@ -42,3 +42,7 @@ skills/
 npx skills list               # list installed skills
 npx skills remove fresh-eyes  # remove
 ```
+
+## License
+
+MIT — see [LICENSE](LICENSE).
