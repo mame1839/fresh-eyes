@@ -48,9 +48,9 @@ If there are multiple issues, don't cram them into one — separate them and mak
 
 Use the Agent (formerly Task) tool to spin up a fresh subagent, and paste the contents of `references/consultant.md` verbatim as its system prompt (at the top), so it behaves as the consultant. All the manners live in that one file, so from there you just throw the question naturally.
 
-Do **not** let the consultant read the codebase or logs on its own. The moment it goes rummaging around, the fresh perspective is re-infected with your own context and the whole point of asking evaporates — this is the precondition for the skill to work at all. So paste the files or results you want it to see directly into the prompt. Ideally it holds no tools and uses none; `consultant.md` itself carries the manner "think only with what you were given," but enforce it on the calling side too: no autonomous exploration.
+Do **not** let the consultant gather context on its own. Holding tools is fine — the one thing to prevent is autonomous context-gathering: it must not go read files, grep the codebase, or dig through logs by itself. The moment it goes rummaging around, the fresh perspective is re-infected with your own context and the whole point of asking evaporates — this is the precondition for the skill to work at all. So paste the files or results you want it to see directly into the prompt. `consultant.md` already carries this manner ("think only with what you were given"), but hold the line on the calling side too: it reasons with what you paste in, not with anything it fetches itself.
 
-If there are multiple issues, make multiple calls; if you want independent takes on the same hard problem, call in parallel and see where they converge.
+If there are multiple issues, make multiple calls. You can also call in parallel for another take on the same hard problem — but keep one caveat in mind: the consultant is usually the *same model* as you. It clears the context this session accumulated, not the model's intrinsic blind spots. Clones with the same framing tend to converge on the same answer whether it's right or wrong, so treat convergence as weak evidence, not validation. If your harness lets you run the consultant on a *different* model, that's where "fresh" gets real teeth.
 
 ## Integrating what comes back
 
