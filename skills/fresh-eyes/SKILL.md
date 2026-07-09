@@ -1,6 +1,6 @@
 ---
 name: fresh-eyes
-description: Consult a fresh subagent — one that carries none of your current context — to break out of tunnel vision or self-justification mid-task. Use it when you've been working a problem for a while and want a second opinion, when you're torn between two or more options and can't cleanly decide, when you want to know how this kind of problem is usually solved, or when you catch yourself rationalizing a choice you've already made. It also fires when the user says things like "sanity-check this," "give me a second opinion," "poke holes in this plan / stress-test it," or "take a fresh look." Reach for it on your own at major decision points, before large or hard-to-reverse changes, and the moment you notice you're defending a direction rather than genuinely testing it — a fresh subagent with no attachment to your prior reasoning often sees what you no longer can.
+description: Consult a fresh subagent — one that carries none of your current context — to break out of tunnel vision or self-justification mid-task. Use it when you've been working a problem for a while and want a second opinion, when you're torn between two or more options and can't cleanly decide, when you want to know how this kind of problem is usually solved, or when you catch yourself rationalizing a choice you've already made. It also fires when the user says things like "sanity-check this," "give me a second opinion," "poke holes in this plan / stress-test it," or "take a fresh look," or when they point out you keep circling ("haven't we been here before?"). Reach for it on your own at major decision points, before large or hard-to-reverse changes, and the moment you notice you're defending a direction rather than genuinely testing it — a fresh subagent with no attachment to your prior reasoning often sees what you no longer can.
 ---
 
 # Fresh Eyes
@@ -15,10 +15,11 @@ As a task goes on, the model quietly accumulates attachment to the choices it ha
 
 ## When to consult
 
-- When you're circling a problem, moving forward on inertia rather than reasoning.
+- When you're circling a problem, moving on inertia rather than reasoning — and watch for the outward traces even when the *feeling* of being stuck doesn't reach you: re-editing the same file, re-litigating a settled decision, patching the same error a third time, the conversation looping back to the same point. Tunnel vision hides itself from the inside, so catch it by its footprints.
 - When you're at a fork and keep leaning toward one of two-plus approaches without a clear reason.
 - When you're about to do something big or hard to reverse.
 - When you catch yourself defending a choice rather than testing it — that feeling itself is the trigger.
+- At the seams of a piece of work: once the design is settled, when an implementation is half-to-mostly done and sunk cost starts defending the current path, and right after you think it's finished. Accumulated justification is heaviest at these points, and momentum disguises it as progress — one fresh pass at a seam (not at every step in between) catches what you can't.
 
 Don't call it at every small step. It costs time and tokens, and constant self-doubt is its own failure mode. Save it for when the cost of being wrong is high, or when you genuinely can't tell whether you're stuck.
 
