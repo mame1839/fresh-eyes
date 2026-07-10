@@ -4,7 +4,7 @@ A skill for pulling a second opinion from a fresh subagent — one that holds no
 
 An in-progress session quietly justifies the choices it has already made, seeing every piece of evidence and every remaining option through the filter of "the direction I've already picked." A subagent spun up fresh has nothing to defend, and can spot what you can no longer see. (It clears the bias your session accumulated — not the model's intrinsic blind spots, since the consultant is usually the same model. Where your setup allows, running it on a different model sharpens the effect.)
 
-Two layers: the **skill** decides *when and how to consult*; the **consultant subagent** carries *the manners of consulting* — lay out both sides, don't be sycophantic, don't read around on its own, question the root.
+Two layers: the **skill** decides *when and how to consult*; the **consultant subagent** carries *the manners of consulting* — lay out both sides, don't be sycophantic, don't dig through your workspace on its own, question the root.
 
 ## Install
 
